@@ -19,8 +19,6 @@ public class App {
 		
 		double nbr1;
 		double nbr2;
-		double nbr3;
-		double moy1 = (nbr1+nbr3)/2d;
 		
 	//DEBUT PROG	
 		Scanner sc = new Scanner(System.in); //permet de lire les saisies utilisateur
@@ -38,12 +36,9 @@ public class App {
 		
 		System.out.println("Vous avez saisi nbr 2 => " + nbr2);
 		
-		System.out.println("La moyenne est de " + moy = (nbr1+nbr2)/2d);
+		System.out.println("La moyenne est de " + (nbr1 + nbr2)/2d);
 		
-		System.out.println("Entrer nbr 3")
-		nbr3 = sc.nextDouble();
-		
-		System.out.println("la moy des 3 nbr est "+ moy + );
+	
 		
 	//FIN PROG	
 	}
